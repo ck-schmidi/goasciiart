@@ -1,16 +1,18 @@
 # goasciiart
 Convert pictures to ascii art use golang
 
+fork from ck_schmidi
+
 ## Installation
 
 ```
-go get github.com/stdupp/goasciiart
+go get github.com/ck-schmidi/goasciiart/...
 ```
 
 ## Usage
 
 ```
-./goarciiart -p abc.jpg(png) -w 80
+./aconv abc.jpg(png) -w 80
 
 -p path of your picture
 -w the width of output
